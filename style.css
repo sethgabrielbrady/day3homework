@@ -41,3 +41,45 @@ header a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+main {
+  width:100%;
+  margin: 0 20% 0 20%;
+
+}
+fieldset {
+  width:15%;
+  height:200px;
+  border:1px solid grey;
+  border-radius: 10px;
+  margin-top:20px;
+  padding:0;
+}
+
+aside {
+  height: 50px;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box;
+
+}
+
+aside.name-box{
+  height:100px;
+  box-sizing: border-box;
+}
+
+aside.name-box img{
+  height:75%;
+  width:25%;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+aside.name-box h{
+  width:40%;
+  float:left;
+}
+
+aside:last-child{
+  border: none;
+  margin:0;
+}
