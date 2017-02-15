@@ -1,1 +1,43 @@
 /* style.css for day 3 */
+
+/*
+rgb(91, 192, 222)
+ */
+
+.box {
+  border: 1px solid yellow;
+}
+body {
+
+  font-family: sans-serif;
+}
+
+
+header {
+  background-color: rgb(91, 192, 222);
+  color: rgb(255, 255, 255);
+  height: 50px;
+
+}
+header h4 {
+  margin:0;
+  float:left;
+  width:50%;
+
+}
+header ul {
+  margin:0;
+  width:40%;
+  float: right;
+}
+header li {
+  list-style: none;
+  display: inline;
+  padding-right:1em;
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
