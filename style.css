@@ -71,15 +71,40 @@ aside.name-box img{
   height:75%;
   width:25%;
   padding-left: 1em;
-  padding-top: 1em;
+  padding-top: 10px;
+  float: left;
 }
 
-aside.name-box h{
-  width:40%;
+aside.name-box p{
+  width:60%;
   float:left;
+  margin:0;
+  font-size:1.25em;
+  padding-top: 10px;
 }
 
+ aside p.user-name{
+  font-size: .9em;
+  color: grey;
+  padding:0;
+}
 aside:last-child{
   border: none;
   margin:0;
+}
+
+aside.bottom-box p{
+  width:50%;
+  box-sizing: border-box;
+  margin:0;
+  font-size: .9em;
+  padding-top:1em;
+}
+aside.left-half {
+  float:left;
+  padding-left:1em;
+}
+aside.right-half {
+  float:right;
+  padding-right:1em;
 }
