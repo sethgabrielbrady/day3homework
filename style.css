@@ -5,9 +5,8 @@
 
 
 body {
-
   font-family: sans-serif;
-}
+  }
 /**************************HEADER**************/
 
 
@@ -16,39 +15,41 @@ header {
   background-color: rgb(91, 192, 222);
   color: rgb(255, 255, 255);
   height: 40px;
-}
+  }
+
 header h1 {
   margin: 0 0 0 28.5em;
   float:left;
   box-sizing: border-box;
   font-size: 1em;
+  }
 
-}
 header ul {
   margin: 0 29.5em 0 0;
   width:20em;
   float: right;
   box-sizing: border-box;
-}
+  }
+
 header li {
   width:auto;
   list-style: none;
   display: inline;
   padding-right:1em;
   float: right;
-}
+  }
 
 header a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
+  }
 
 /**************************MAIN***************/
 
 main {
   width: 60em;
   margin: 1em auto;
-}
+  }
 
 
 /***************************************/
@@ -59,14 +60,14 @@ section {
   margin:0;
   float:left;
   box-sizing: border-box;
+  }
 
-}
-
- section.center-field {
+section.profile-two {
   margin: 0 2em;
-}
- section{
-   margin-bottom:2em;
+  }
+
+section{
+  margin-bottom:2em;
  }
 
  /***************************************/
@@ -77,20 +78,19 @@ aside.bottom-box{
   height: 3.5em;
   border-bottom: 1px solid rgb(143, 143, 143);
   box-sizing: border-box;
-}
+  }
 
 aside.name-box{
   height:100px;
   box-sizing: border-box;
-}
+  }
 
 aside.name-box img{
   width:25%;
   padding-left: 1em;
   padding-top: 10px;
   float: left;
-
-}
+  }
 
 .name-box h2{
   width:60%;
@@ -99,43 +99,42 @@ aside.name-box img{
   font-size:1.25em;
   padding-top: 10px;
   padding-left: .5em;
-
-}
+  }
 
 
 aside .user-name{
   font-size: .9em;
   color: rgb(143, 143, 143);
   padding-left: 6.9em;
-}
+  }
 
 aside:last-child{
   border: none;
   margin:0;
-}
+  }
 
 aside.bottom-box p{
   box-sizing: border-box;
   margin:0;
   font-size: .9em;
   padding-top:1em;
-}
+  }
 
  aside p.left-half {
   float:left;
   padding-left:1em;
   border:none;
-}
+  }
 
 aside.right-half {
   float:right;
   padding-right:1em;
   padding-top:.8em;
-}
+  }
 
 aside.right-half  p{
   margin:0;
-}
+  }
 
 /***************************************/
 
@@ -148,19 +147,19 @@ span{
   float:left;
   margin-right: 2px;
   margin-top: 3px;
-}
+  }
 
 span.ruby{
   background-color: rgb(122, 35, 43);
   border: 1px solid rgb(122, 35, 43);
-}
+  }
 
 span.js{
   background-color: rgb(244, 232, 66);
   border: 1px solid rgb(244, 232, 66);
-}
+  }
 
 span.php{
   background-color: rgb(74, 42, 178);
   border: 1px solid rgb(74, 42, 178);
-}
+  }
